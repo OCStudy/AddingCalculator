@@ -1,0 +1,433 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DE17DAD21C85D27200F44EBA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DE17DAD11C85D27200F44EBA /* main.m */; };
+		DE17DAD51C85D27200F44EBA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DE17DAD41C85D27200F44EBA /* AppDelegate.m */; };
+		DE17DAD81C85D27200F44EBA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE17DAD71C85D27200F44EBA /* ViewController.m */; };
+		DE17DADB1C85D27200F44EBA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE17DAD91C85D27200F44EBA /* Main.storyboard */; };
+		DE17DADD1C85D27200F44EBA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE17DADC1C85D27200F44EBA /* Images.xcassets */; };
+		DE17DAE01C85D27200F44EBA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE17DADE1C85D27200F44EBA /* LaunchScreen.xib */; };
+		DE17DAEC1C85D27200F44EBA /* _____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = DE17DAEB1C85D27200F44EBA /* _____Tests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DE17DAE61C85D27200F44EBA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DE17DAC41C85D27200F44EBA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DE17DACB1C85D27200F44EBA;
+			remoteInfo = "加法计算器";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DE17DACC1C85D27200F44EBA /* 加法计算器.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "加法计算器.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE17DAD01C85D27200F44EBA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE17DAD11C85D27200F44EBA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DE17DAD31C85D27200F44EBA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DE17DAD41C85D27200F44EBA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DE17DAD61C85D27200F44EBA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DE17DAD71C85D27200F44EBA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DE17DADA1C85D27200F44EBA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DE17DADC1C85D27200F44EBA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		DE17DADF1C85D27200F44EBA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		DE17DAE51C85D27200F44EBA /* 加法计算器Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "加法计算器Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE17DAEA1C85D27200F44EBA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE17DAEB1C85D27200F44EBA /* _____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_____Tests.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DE17DAC91C85D27200F44EBA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE17DAE21C85D27200F44EBA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DE17DAC31C85D27200F44EBA = {
+			isa = PBXGroup;
+			children = (
+				DE17DACE1C85D27200F44EBA /* 加法计算器 */,
+				DE17DAE81C85D27200F44EBA /* 加法计算器Tests */,
+				DE17DACD1C85D27200F44EBA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DE17DACD1C85D27200F44EBA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DE17DACC1C85D27200F44EBA /* 加法计算器.app */,
+				DE17DAE51C85D27200F44EBA /* 加法计算器Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DE17DACE1C85D27200F44EBA /* 加法计算器 */ = {
+			isa = PBXGroup;
+			children = (
+				DE17DAD31C85D27200F44EBA /* AppDelegate.h */,
+				DE17DAD41C85D27200F44EBA /* AppDelegate.m */,
+				DE17DAD61C85D27200F44EBA /* ViewController.h */,
+				DE17DAD71C85D27200F44EBA /* ViewController.m */,
+				DE17DAD91C85D27200F44EBA /* Main.storyboard */,
+				DE17DADC1C85D27200F44EBA /* Images.xcassets */,
+				DE17DADE1C85D27200F44EBA /* LaunchScreen.xib */,
+				DE17DACF1C85D27200F44EBA /* Supporting Files */,
+			);
+			path = "加法计算器";
+			sourceTree = "<group>";
+		};
+		DE17DACF1C85D27200F44EBA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DE17DAD01C85D27200F44EBA /* Info.plist */,
+				DE17DAD11C85D27200F44EBA /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DE17DAE81C85D27200F44EBA /* 加法计算器Tests */ = {
+			isa = PBXGroup;
+			children = (
+				DE17DAEB1C85D27200F44EBA /* _____Tests.m */,
+				DE17DAE91C85D27200F44EBA /* Supporting Files */,
+			);
+			path = "加法计算器Tests";
+			sourceTree = "<group>";
+		};
+		DE17DAE91C85D27200F44EBA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DE17DAEA1C85D27200F44EBA /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DE17DACB1C85D27200F44EBA /* 加法计算器 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE17DAEF1C85D27200F44EBA /* Build configuration list for PBXNativeTarget "加法计算器" */;
+			buildPhases = (
+				DE17DAC81C85D27200F44EBA /* Sources */,
+				DE17DAC91C85D27200F44EBA /* Frameworks */,
+				DE17DACA1C85D27200F44EBA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "加法计算器";
+			productName = "加法计算器";
+			productReference = DE17DACC1C85D27200F44EBA /* 加法计算器.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DE17DAE41C85D27200F44EBA /* 加法计算器Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE17DAF21C85D27200F44EBA /* Build configuration list for PBXNativeTarget "加法计算器Tests" */;
+			buildPhases = (
+				DE17DAE11C85D27200F44EBA /* Sources */,
+				DE17DAE21C85D27200F44EBA /* Frameworks */,
+				DE17DAE31C85D27200F44EBA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DE17DAE71C85D27200F44EBA /* PBXTargetDependency */,
+			);
+			name = "加法计算器Tests";
+			productName = "加法计算器Tests";
+			productReference = DE17DAE51C85D27200F44EBA /* 加法计算器Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DE17DAC41C85D27200F44EBA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "吴子庶";
+				TargetAttributes = {
+					DE17DACB1C85D27200F44EBA = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					DE17DAE41C85D27200F44EBA = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = DE17DACB1C85D27200F44EBA;
+					};
+				};
+			};
+			buildConfigurationList = DE17DAC71C85D27200F44EBA /* Build configuration list for PBXProject "加法计算器" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DE17DAC31C85D27200F44EBA;
+			productRefGroup = DE17DACD1C85D27200F44EBA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DE17DACB1C85D27200F44EBA /* 加法计算器 */,
+				DE17DAE41C85D27200F44EBA /* 加法计算器Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DE17DACA1C85D27200F44EBA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE17DADB1C85D27200F44EBA /* Main.storyboard in Resources */,
+				DE17DAE01C85D27200F44EBA /* LaunchScreen.xib in Resources */,
+				DE17DADD1C85D27200F44EBA /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE17DAE31C85D27200F44EBA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DE17DAC81C85D27200F44EBA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE17DAD81C85D27200F44EBA /* ViewController.m in Sources */,
+				DE17DAD51C85D27200F44EBA /* AppDelegate.m in Sources */,
+				DE17DAD21C85D27200F44EBA /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE17DAE11C85D27200F44EBA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE17DAEC1C85D27200F44EBA /* _____Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DE17DAE71C85D27200F44EBA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DE17DACB1C85D27200F44EBA /* 加法计算器 */;
+			targetProxy = DE17DAE61C85D27200F44EBA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DE17DAD91C85D27200F44EBA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE17DADA1C85D27200F44EBA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DE17DADE1C85D27200F44EBA /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE17DADF1C85D27200F44EBA /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DE17DAED1C85D27200F44EBA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DE17DAEE1C85D27200F44EBA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DE17DAF01C85D27200F44EBA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "加法计算器/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DE17DAF11C85D27200F44EBA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "加法计算器/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DE17DAF31C85D27200F44EBA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "加法计算器Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/加法计算器.app/加法计算器";
+			};
+			name = Debug;
+		};
+		DE17DAF41C85D27200F44EBA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "加法计算器Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/加法计算器.app/加法计算器";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DE17DAC71C85D27200F44EBA /* Build configuration list for PBXProject "加法计算器" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE17DAED1C85D27200F44EBA /* Debug */,
+				DE17DAEE1C85D27200F44EBA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE17DAEF1C85D27200F44EBA /* Build configuration list for PBXNativeTarget "加法计算器" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE17DAF01C85D27200F44EBA /* Debug */,
+				DE17DAF11C85D27200F44EBA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DE17DAF21C85D27200F44EBA /* Build configuration list for PBXNativeTarget "加法计算器Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE17DAF31C85D27200F44EBA /* Debug */,
+				DE17DAF41C85D27200F44EBA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DE17DAC41C85D27200F44EBA /* Project object */;
+}
